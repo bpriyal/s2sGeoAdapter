@@ -1,0 +1,50 @@
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+.cmake/
+
+# Executables
+s2sgeo_daemon
+s2sgeo_adapter
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Conan
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+
+# CMake
+CMakeUserPresets.json
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+
+# Test outputs
+Testing/
+*.log
+test_results.xml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Shared memory (runtime)
+/dev/shm/s2sgeo_shm
+
+# Temporary files
+*.tmp
+*.bak
